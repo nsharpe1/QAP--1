@@ -49,7 +49,7 @@ public class Date {
 
     public String toString()
     {
-        return(this.day + "/" + this.month + "/" + this.year);
+        return String.format("%02d/%02d/%d", this.day, this.month, this.year);
     }
 }
 
