@@ -6,7 +6,7 @@ public class TestDate {
 
         Date d2 = new Date(31, 12, 9999);
 
-        System.out.println(d1);
-        System.out.println(d2);
+        System.out.println("Date 1: " + d1);
+        System.out.println("Date 2: " + d2);
     }
 }
