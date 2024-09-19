@@ -1,22 +1,22 @@
 public class Account {
-    private int id;
+    private String id;
     private String name;
     private int balance;
     
-    public Account(int id, String name)
+    public Account(String id, String name)
     {
         this.id = id;
         this.name = name;
     }
 
-    public Account(int i, String name, int balance)
+    public Account(String id, String name, int balance)
     {
-        this.id = i;
+        this.id = id;
         this.name = name;
         this.balance = balance;
     }
 
-    public int getID()
+    public String getID()
     {
         return this.id;
     }

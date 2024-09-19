@@ -6,9 +6,9 @@ import java.util.Locale;
 public class TestAccount {
     
     public static void main(String[] args) {
-        Account a1 = new Account(1,"Acc1",3000);
+        Account a1 = new Account("1","Acc1",3000);
 
-        Account a2 = new Account(2,"Acc2",4000);
+        Account a2 = new Account("2","Acc2",4000);
 
         Currency currency = Currency.getInstance(Locale.CANADA);
         NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(Locale.CANADA);
